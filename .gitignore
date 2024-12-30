@@ -77,3 +77,4 @@ public
 .docusaurus/
 
 docs-old/
+build/
