@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "SFJ",
+      title: "ScriptFlow for Jira",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.png",
