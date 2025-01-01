@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Secure by Design',
+    Svg: require('@site/static/img/private-cloud-icon.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Built and run on Atlassian.Experience the confidence of running automations on Atlassian's trusted platform, backed by enterprise-level security and reliability.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Unlimited automations Endless possibilities',
+    Svg: require('@site/static/img/infinity-symbol.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Break free from limitations with JAB's comprehensive automation platform. Create any number of event handlers to tackle your unique business needs, from simple issue updates to complex cross-project workflows.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Javascript based scripting engine',
+    Svg: require('@site/static/img/mono-javascript.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Write powerful automation scripts using familiar JavaScript syntax. The built-in scripting engine provides access to Jira's API, custom functions, and utilities while running in a secure sandbox environment. Create complex workflows, data transformations, and integrations without leaving Jira.
       </>
     ),
   },

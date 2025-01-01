@@ -1,8 +1,8 @@
 {
-  "label": "JAB Event Handler",
+  "label": "SFJ Event Handler",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Automate your Jira workflows with JAB Event Handler"
+    "description": "Automate your Jira workflows with SFJ Event Handler"
   }
 }

@@ -5,12 +5,12 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Jira Auto Bot (JAB)",
+  title: "ScriptFlow for Jira (SFJ)",
   tagline: "All in one automation for Jira",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://jab.123x.dev",
+  url: "https://scriptflow.123x.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "JAB",
+      title: "SFJ",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.png",
