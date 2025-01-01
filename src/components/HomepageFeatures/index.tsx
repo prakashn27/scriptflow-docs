@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Unlimited automations Endless possibilities',
-    Svg: require('@site/static/img/infinity-symbol.svg').default,
+    Svg: require('@site/static/img/unlimited.svg').default,
     description: (
       <>
         Break free from limitations with JAB's comprehensive automation platform. Create any number of event handlers to tackle your unique business needs, from simple issue updates to complex cross-project workflows.
