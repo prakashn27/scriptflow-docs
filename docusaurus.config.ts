@@ -127,7 +127,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 123x dot dev`,
+      copyright: `Copyright © ${new Date().getFullYear()} `,
     },
     prism: {
       theme: prismThemes.github,
