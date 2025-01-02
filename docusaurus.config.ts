@@ -80,12 +80,12 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
-        // {
-        //   href: "https://github.com/facebook/docusaurus",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
+        // { to: "/blog", label: "Blog", position: "left" },
+        {
+          href: "https://github.com/prakashn27/jab-docs",
+          label: "GitHub",
+          position: "right",
+        },
       ],
     },
     footer: {
@@ -117,15 +117,15 @@ const config: Config = {
         //     },
         //   ],
         // },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-          ],
-        },
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "Blog",
+        //       to: "/blog",
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} `,
     },
