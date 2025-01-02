@@ -1,0 +1,8 @@
+{
+  "label": "ScriptFlow Event Handler",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Create a script (Handler) that runs on Jira Events"
+  }
+}

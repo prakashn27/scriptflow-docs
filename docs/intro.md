@@ -4,10 +4,13 @@ sidebar_position: 1
 
 # ScriptFlow for Jira (SFJ)
 
-SFJ is All in one automation software that runs fully on Atlassian infrastructure
+ScriptFlow for Jira (SFJ) is a tool that allows you to automate your Jira workflows using JavaScript.
 
-This tutorial consists of 3 sections
+## GOAL:
+1. Easy to use and configure
+2. Fully on Atlassian infrastructure
+3. No Egress traffic ( compliant with data residency and data protection laws)
+4. Ability to configure and run scripts on Jira events
+5. Ability to use Jira API to create custom workflows
 
-1. Setup and configuration
-2. SFJ Event Handler
-3. SFJ Workflow Enhancer
+
