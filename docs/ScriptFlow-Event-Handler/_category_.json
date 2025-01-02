@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Create a script (Handler) that runs on Jira Events"
+    "description": "Learn how to use ScriptFlow Event Handler to automate your Jira workflows"
   }
 }
