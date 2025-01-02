@@ -82,7 +82,7 @@ const config: Config = {
         },
         // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/prakashn27/jab-docs",
+          href: "https://github.com/prakashn27/scriptflow-docs",
           label: "GitHub",
           position: "right",
         },
