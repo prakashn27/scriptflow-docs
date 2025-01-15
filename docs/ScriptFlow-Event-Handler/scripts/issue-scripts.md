@@ -37,8 +37,8 @@ const bodyData = `{
 }`; 
 
 // Post the comment to the issue 
-const response = await sfj.post(`/rest/api/3/issue/${issueIdOrKey}/comment`,bodyData);
-console.log(`Response: ${response.status} ${response.statusText}`);
+await sfj.post(`/rest/api/3/issue/${issueIdOrKey}/comment`,bodyData);
+
 
 console.log('Done');
 
