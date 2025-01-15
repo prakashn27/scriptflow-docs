@@ -15,7 +15,9 @@ App can be installed using the Atlassian link
 
 
 ## 3. How event handlers work
-
+<video width="400" controls autoplay>
+    <source src="https://cdn.123x.dev/how-event-handlers-work.mov" type="video/mp4">
+</video>
 
 ## 4. How to create a script
 
