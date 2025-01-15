@@ -44,9 +44,10 @@ console.log('Done');
 
 ```
 
-## change status to "In Progress" when an comment is added
+## Change status to "In Progress" when an comment is added
 
 **Event Type**: `Comment Added`
+
 **Script**:
 ```javascript
 // Subscribe to the "Comment Added" event
