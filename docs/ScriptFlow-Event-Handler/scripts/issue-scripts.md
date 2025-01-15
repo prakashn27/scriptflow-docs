@@ -44,7 +44,7 @@ console.log('Done');
 
 ```
 
-## Change status to "In Progress" when an comment is added
+## Change status to "In Progress" when a comment is added
 
 **Event Type**: `Comment Added`
 
