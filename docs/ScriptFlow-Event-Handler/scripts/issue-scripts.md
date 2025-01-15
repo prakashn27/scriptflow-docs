@@ -94,3 +94,45 @@ async function handleCommentAdded() {
 await handleCommentAdded()
 
 ```
+
+## Auto Assign new Jira issues to a particular user
+
+**Event Type**: `Issue Created`
+
+**Script**:
+```javascript
+// Listen for the "Issue Created" event
+const event = sfj.getEvent();
+
+// Retrieve the issue details from the event payload
+const issueKey = event.issue.key;
+
+// Define the account ID of the user to whom the issue should be assigned
+// https://community.atlassian.com/t5/Jira-questions/where-can-i-find-my-Account-ID/qaq-p/976527
+const assigneeAccountId = "712020:fccd1360-a1c6-408c-9a57-afffcd6b93f0"; // Replace with the actual account ID of the user
+
+async function assignIssue() {
+  try {
+    // Construct the API endpoint for assigning the issue
+    const endpoint = `/rest/api/3/issue/${issueKey}/assignee`;
+
+    // Define the body payload for the assignment
+    const body = JSON.stringify({
+      accountId: assigneeAccountId
+    });
+
+    // Perform the assignment
+    const response = await sfj.put(endpoint, body);
+
+    // Log success
+    console.log(`Issue ${issueKey} successfully assigned to user with account ID: ${assigneeAccountId}`);
+    console.log(`Response:`, response);
+  } catch (error) {
+    // Log errors, if any
+    console.error(`Failed to assign issue ${issueKey}.`, error);
+  }
+}
+
+// Invoke the function to assign the issue
+await assignIssue();
+```
