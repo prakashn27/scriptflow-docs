@@ -17,12 +17,9 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://marketplace.atlassian.com/apps/1236394/scriptflow-for-jira-sfj?hosting=cloud&tab=overview"
-          >
+          <a href="https://marketplace.atlassian.com/apps/1236394/scriptflow-for-jira-sfj?hosting=cloud&tab=overview" target="_blank">
             Install on Atlassian Marketplace - 5 mins ⏱️
-          </Link>
+          </a>
         </div>
       </div>
     </header>
